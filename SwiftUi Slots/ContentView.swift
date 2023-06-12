@@ -8,25 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var points = 500
+    @State var firstSlot = 0
+    @State var secondSlot = 0
+    @State var thirdSlot = 0
+    
+    let imageArray = ["cherry", "apple", "star"]
+
     var body: some View {
         VStack{
             Text("SwiftUI Slots!")
                 .font(.system(size: 35))
                 .padding(.top, 35)
             Spacer()
-            Text("Credits:")
+            Text("Credits: " + String(points))
             Spacer()
             HStack{
                 Spacer()
-                Image("cherry")
+                Image(imageArray[firstSlot])
                     .resizable()
                     .frame(width: 100, height: 100)
                 Spacer()
-                Image("apple")
+                Image(imageArray[secondSlot])
                     .resizable()
                     .frame(width: 100, height: 100)
                 Spacer()
-                Image("star")
+                Image(imageArray[thirdSlot])
                     .resizable()
                     .frame(width: 100, height: 100)
                 Spacer()
@@ -34,7 +41,23 @@ struct ContentView: View {
                 .padding(.all)
                 
             Spacer()
-            Button(action: {}, label: {
+            Button(action: {
+                firstSlot = Int.random(in: 0...2)
+                secondSlot = Int.random(in: 0...2)
+                thirdSlot = Int.random(in: 0...2)
+                
+                if (firstSlot == secondSlot && secondSlot == thirdSlot && firstSlot == 2) {
+                    points += 100
+                    
+                }else if (firstSlot == secondSlot && secondSlot == thirdSlot && firstSlot == 1){
+                    points += 10
+                }else if (firstSlot == secondSlot && secondSlot == thirdSlot && firstSlot == 0){
+                    points += 25
+                }
+                else {
+                    points -= 5
+                }
+            }, label: {
                 Text("Spin")
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
