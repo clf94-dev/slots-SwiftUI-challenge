@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32BECB4B2A3792090081CC0A /* SwiftUi Slots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUi Slots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BECB4B2A3792090081CC0A /* SwiftUi-Slots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUi-Slots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BECB4E2A3792090081CC0A /* SwiftUi_SlotsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUi_SlotsApp.swift; sourceTree = "<group>"; };
 		32BECB502A3792090081CC0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32BECB522A37920B0081CC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		32BECB4C2A3792090081CC0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32BECB4B2A3792090081CC0A /* SwiftUi Slots.app */,
+				32BECB4B2A3792090081CC0A /* SwiftUi-Slots.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32BECB4A2A3792090081CC0A /* SwiftUi Slots */ = {
+		32BECB4A2A3792090081CC0A /* SwiftUi-Slots */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BECB592A37920B0081CC0A /* Build configuration list for PBXNativeTarget "SwiftUi Slots" */;
+			buildConfigurationList = 32BECB592A37920B0081CC0A /* Build configuration list for PBXNativeTarget "SwiftUi-Slots" */;
 			buildPhases = (
 				32BECB472A3792090081CC0A /* Sources */,
 				32BECB482A3792090081CC0A /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUi Slots";
+			name = "SwiftUi-Slots";
 			productName = "SwiftUi Slots";
-			productReference = 32BECB4B2A3792090081CC0A /* SwiftUi Slots.app */;
+			productReference = 32BECB4B2A3792090081CC0A /* SwiftUi-Slots.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32BECB462A3792090081CC0A /* Build configuration list for PBXProject "SwiftUi Slots" */;
+			buildConfigurationList = 32BECB462A3792090081CC0A /* Build configuration list for PBXProject "SwiftUi-Slots" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32BECB4A2A3792090081CC0A /* SwiftUi Slots */,
+				32BECB4A2A3792090081CC0A /* SwiftUi-Slots */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32BECB462A3792090081CC0A /* Build configuration list for PBXProject "SwiftUi Slots" */ = {
+		32BECB462A3792090081CC0A /* Build configuration list for PBXProject "SwiftUi-Slots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BECB572A37920B0081CC0A /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BECB592A37920B0081CC0A /* Build configuration list for PBXNativeTarget "SwiftUi Slots" */ = {
+		32BECB592A37920B0081CC0A /* Build configuration list for PBXNativeTarget "SwiftUi-Slots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BECB5A2A37920B0081CC0A /* Debug */,
